@@ -1011,7 +1011,7 @@ public class ematch extends HttpServlet {
 
 	//out.println("<center>");
 	//out.println("<h3>Details Information for candidate </h3>");
-	//out.println("<body background=\"/peng/images/sky_bg.gif\"" +
+	//out.println("<body background=\"/h_w85/images/sky_bg.gif\"" +
 	//			"text=\"#000000\" link=\"8FF0FF0\" vlink=\"#551A8B\" alink=\"#FF0000\">");
 	out.println("<h3>Detail Information for Candidate " + rset.getString(4) + " </h3>");
 	//out.println("<table >");
@@ -1042,7 +1042,7 @@ public class ematch extends HttpServlet {
         oneColumn = rset.getString(6);
 	out.println("<font color=\"#900000\">");
 	out.println("<A HREF=\"mailto:" + oneColumn + "\">" + oneColumn +
-			"</A> <IMG SRC=/peng/images/email.gif border=0 align=middle>");
+			"</A> <IMG SRC=/h_w85/images/email.gif border=0 align=middle>");
 	out.println("</font>");
 	out.println("<br>");
 
@@ -1159,7 +1159,7 @@ public class ematch extends HttpServlet {
 	//Connection conn = new oracle.jdbc.driver.OracleDriver().defaultConnection(); 
 	//Connection conn = DriverManager.getConnection 
 	//	("jdbc:oracle:kprb:@ORCL817","scott", "tiger");
-	//          ("jdbc:oracle:kprb:@glaciers.cs.txstate.edu:1521:ORCL817","scott", "tiger"); 
+	//          ("jdbc:oracle:kprb:@newfirebird.cs.txstate.edu:1521:ORCL817","scott", "tiger"); 
 	//Connection conn =  
 	//     new oracle.jdbc.driver.OracleDriver().defaultConnection();
 
@@ -1240,7 +1240,7 @@ public class ematch extends HttpServlet {
 	//Connection conn = new oracle.jdbc.driver.OracleDriver().defaultConnection(); 
 	//Connection conn = DriverManager.getConnection 
 	//	("jdbc:oracle:kprb:@ORCL817","scott", "tiger");
-	//          ("jdbc:oracle:kprb:@glaciers.cs.txstate.edu:1521:ORCL817","scott", "tiger"); 
+	//          ("jdbc:oracle:kprb:@newfirebird.cs.txstate.edu:1521:ORCL817","scott", "tiger"); 
 	//Connection conn =  
 	//     new oracle.jdbc.driver.OracleDriver().defaultConnection();
 
@@ -1377,7 +1377,7 @@ public class ematch extends HttpServlet {
 		out.println("<tr bgcolor=#ffffcc>");
 		//out.println("<td>" + resultRows[k][1]);
 		out.println("<td>" + rating[i]);
-		//out.println("<td><a href=\"/peng/servlets/getjob?id=$count&filename=dummy\"" +
+		//out.println("<td><a href=\"/h_w85/servlets/getjob?id=$count&filename=dummy\"" +
 		//		"target=display>" + resultRows[k][3] + "</a>"); // job title
 		out.println("<td><a href=\"/servlet/getJob?job_id=" + 
 				resultRows[k][1] + "\"" +
@@ -1458,10 +1458,10 @@ public class ematch extends HttpServlet {
         out.println("<center>");
         out.println("<TABLE CELLSPACING=\"0\" CELLPADDING=\"3\" BORDER=\"0\">");
         out.println("<tr>");
-        out.println("	<td> <A href=\"http://glaciers.cs.txstate.edu:8080/peng/jsp/home.jsp\"> Home </A>");
-        out.println("	<td> <A href=\"http://glaciers.cs.txstate.edu:8080/peng/servlets/jobSearch.html\">Job Search </a>");
-        out.println("	<td> <A href=\"/peng/servlets/employerLogin.html\">Employers </A>");
-        out.println("	<td> <A href=\"/peng/servlets/candidateLogin.html\">Members </A>");
+        out.println("	<td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/jsp/home.jsp\"> Home </A>");
+        out.println("	<td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">Job Search </a>");
+        out.println("	<td> <A href=\"/h_w85/servlets/employerLogin.html\">Employers </A>");
+        out.println("	<td> <A href=\"/h_w85/servlets/candidateLogin.html\">Members </A>");
         out.println("</tr>");
         out.println("</table>");
         out.println("</center>");

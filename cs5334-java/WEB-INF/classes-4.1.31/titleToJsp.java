@@ -9,7 +9,7 @@ public class titleToJsp extends HttpServlet {
 	try {
 	    // Set the attribute and Forward to hello.jsp
 	    request.setAttribute ("servletName", "titleToJsp");
-	    getServletConfig().getServletContext().getRequestDispatcher("/peng/jsp/title.jsp").forward(request, response);
+	    getServletConfig().getServletContext().getRequestDispatcher("/h_w85/jsp/title.jsp").forward(request, response);
 	} catch (Exception ex) {
 	    ex.printStackTrace ();
 	}

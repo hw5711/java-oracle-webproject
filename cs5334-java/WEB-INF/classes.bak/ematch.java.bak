@@ -1146,7 +1146,7 @@ public class ematch extends HttpServlet {
 	//Connection conn = new oracle.jdbc.driver.OracleDriver().defaultConnection(); 
 	//Connection conn = DriverManager.getConnection 
 	//	("jdbc:oracle:kprb:@ORCL817","scott", "tiger");
-	//          ("jdbc:oracle:kprb:@glaciers.cs.swt.edu:1521:ORCL817","scott", "tiger"); 
+	//          ("jdbc:oracle:kprb:@newfirebird.cs.swt.edu:1521:ORCL817","scott", "tiger"); 
 	//Connection conn =  
 	//     new oracle.jdbc.driver.OracleDriver().defaultConnection();
 
@@ -1223,7 +1223,7 @@ public class ematch extends HttpServlet {
 	//Connection conn = new oracle.jdbc.driver.OracleDriver().defaultConnection(); 
 	//Connection conn = DriverManager.getConnection 
 	//	("jdbc:oracle:kprb:@ORCL817","scott", "tiger");
-	//          ("jdbc:oracle:kprb:@glaciers.cs.swt.edu:1521:ORCL817","scott", "tiger"); 
+	//          ("jdbc:oracle:kprb:@newfirebird.cs.swt.edu:1521:ORCL817","scott", "tiger"); 
 	//Connection conn =  
 	//     new oracle.jdbc.driver.OracleDriver().defaultConnection();
 
@@ -1433,8 +1433,8 @@ public class ematch extends HttpServlet {
         out.println("<center>");
         out.println("<TABLE CELLSPACING=\"0\" CELLPADDING=\"3\" BORDER=\"0\">");
         out.println("<tr>");
-        out.println("	<td> <A href=\"http://glaciers.cs.swt.edu:9090/AIIPDemos/jsp/home.jsp\"> Home </A>");
-        out.println("	<td> <A href=\"http://glaciers.cs.swt.edu:9090/AIIPDemos/servlets/jobSearch.html\">Job Search </a>");
+        out.println("	<td> <A href=\"http://newfirebird.cs.swt.edu:9090/AIIPDemos/jsp/home.jsp\"> Home </A>");
+        out.println("	<td> <A href=\"http://newfirebird.cs.swt.edu:9090/AIIPDemos/servlets/jobSearch.html\">Job Search </a>");
         out.println("	<td> <A href=\"/AIIPDemos/servlets/employerLogin.html\">Employers </A>");
         out.println("	<td> <A href=\"/AIIPDemos/servlets/candidateLogin.html\">Members </A>");
         out.println("</tr>");

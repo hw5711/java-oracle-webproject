@@ -9,7 +9,7 @@ public class homeToJsp extends HttpServlet {
 	try {
 	    // Set the attribute and Forward to home.jsp
 	    request.setAttribute ("servletName", "homeToJsp");
-	    getServletConfig().getServletContext().getRequestDispatcher("/peng/jsp/home.jsp").forward(request, response);
+	    getServletConfig().getServletContext().getRequestDispatcher("/h_w85/jsp/home.jsp").forward(request, response);
 	} catch (Exception ex) {
 	    ex.printStackTrace ();
 	}
