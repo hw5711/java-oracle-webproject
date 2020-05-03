@@ -51,10 +51,10 @@ public class title extends HttpServlet {
 	  out.println("<center>");
 	  out.println("<TABLE CELLSPACING=\"0\" CELLPADDING=\"0\" width=\"60%\" bgcolor=\"#ccffff\">");
 	  out.println("<tr>");
-	  out.println("	<td> <input type=button value=\"Home\" onClick=\"top.main.location='http://newfirebird.cs.txstate.edu:8080/h_w85/jsp/home.jsp'\"></td>");
-	  out.println("	<td> <input type=button value=\"Job Search\" onClick=\"top.main.location='http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html'\"></td>");
-	  out.println("	<td> <input type=button value=\"Employers\" onClick=\"top.main.location='http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html'\"></td>");
-	  out.println("	<td> <input type=button value=\"Members\" onClick=\"top.main.location='http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/candidateLogin.html'\"></td>");
+	  out.println("	<td> <input type=button value=\"Home\" onClick=\"top.main.location='http://glaciers.cs.txstate.edu:8080/h_w85/jsp/home.jsp'\"></td>");
+	  out.println("	<td> <input type=button value=\"Job Search\" onClick=\"top.main.location='http://glaciers.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html'\"></td>");
+	  out.println("	<td> <input type=button value=\"Employers\" onClick=\"top.main.location='http://glaciers.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html'\"></td>");
+	  out.println("	<td> <input type=button value=\"Members\" onClick=\"top.main.location='http://glaciers.cs.txstate.edu:8080/h_w85/servlets/candidateLogin.html'\"></td>");
 	  out.println("</tr>");
 	  out.println("</table>");
 	  out.println("</center>");
