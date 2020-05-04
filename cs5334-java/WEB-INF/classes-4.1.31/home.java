@@ -85,7 +85,7 @@ public class home extends HttpServlet {
       out.println(" <IMG src=\"/h_w85/images/background.gif\" width=\"550\"" +
 		      "height=\"180\"  usemap=\"#map1\" border=\"0\"><map name=map1>");
       out.println(" <area shape=\"rect\" coords=\"3,3,215,180\"" +
-		      	"href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">");
+		      	"href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">");
       out.println(" <area shape=\"rect\" coords=\"310,3, 550,180\"" +
 		      "href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html\">");
       out.println(" </map>");
