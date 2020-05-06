@@ -439,9 +439,9 @@ class ematchConstStruct {
     final int MAX_VAR_NAME_LEN			=	30;
     final int MAX_IND_NAME_LEN    		=	30;
 
-    final String DATABASE = "orcl";
-    final String USERNAME = "peng";
-    final String PASSWORD = "Sm97ireT";
+    final String DATABASE = "CSDBORA";
+    final String USERNAME = "H_W85";
+    final String PASSWORD = "WH890610";
 
     final int MAX_SQL_STATEMENT_LENGTH 		=	2000;
     final int MAX_VALUE_LIST_LENGTH    		=	1000;

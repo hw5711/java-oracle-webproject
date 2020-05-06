@@ -85,9 +85,9 @@ public class home extends HttpServlet {
       out.println(" <IMG src=\"/h_w85/images/background.gif\" width=\"550\"" +
 		      "height=\"180\"  usemap=\"#map1\" border=\"0\"><map name=map1>");
       out.println(" <area shape=\"rect\" coords=\"3,3,215,180\"" +
-		      	"href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">");
+		      	"href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">");
       out.println(" <area shape=\"rect\" coords=\"310,3, 550,180\"" +
-		      "href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html\">");
+		      "href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html\">");
       out.println(" </map>");
 
       out.println(" <br>");
@@ -109,10 +109,10 @@ public class home extends HttpServlet {
       out.println(" <br>");
       out.println(" <TABLE CELLSPACING=\"0\" CELLPADDING=\"3\" BORDER=\"0\">");
       out.println(" <tr>");
-      out.println(" <td> <A href=\"http://glaciers.cs.txstate.edu:8080/h_w85/jsp/home.jsp\"> Home </A>");
-      out.println(" <td> <A href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">Job Search </a>");
-      out.println(" <td> <A href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html\">Employers </A>");
-      out.println(" <td> <A href=\"http://glaciers.cs.txstate.edu:8080/h_w85/servlets/candidateLogin.html\">Members </A>");
+      out.println(" <td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/jsp/home.jsp\"> Home </A>");
+      out.println(" <td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/jobSearch.html\">Job Search </a>");
+      out.println(" <td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/employerLogin.html\">Employers </A>");
+      out.println(" <td> <A href=\"http://newfirebird.cs.txstate.edu:8080/h_w85/servlets/candidateLogin.html\">Members </A>");
       out.println(" </tr>");
       out.println(" </table>");
       out.println(" </center>");
